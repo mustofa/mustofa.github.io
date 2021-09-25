@@ -38,7 +38,7 @@
 <section class="resume-section" id="about">
     <div class="resume-section-content">
     <h1 class="mb-0">Mustofa</h1>
-    <div class="subheading mb-5">Surabaya · 089668927367 · mus-tofa@hotmail.com</div>
+    <div class="subheading mb-5">surabaya · 089668927367 · mus-tofa@hotmail.com</div>
 <p class="lead mb-5" style="text-align: justify;">Hello! I am Mustofa, a junior developer. I obtained an Associate Degree in Computer Engineering from Polytechnic NSC Surabaya in 2019. 
 My current job is as a freelance worker, who is very enthusiastic about programming languages and always feels challenged to work on new projects. 
 Currently, I am very interested in the latest technological developments, especially web frontend technology and the development of mobile android.
@@ -58,7 +58,7 @@ Currently, I am very interested in the latest technological developments, especi
             <hr class="m-0" />
             <!-- akhir about -->
 
-             <!-- Education-->
+            <!-- Education-->
             <section class="resume-section" id="education">
             <div class="resume-section-content">
             <h2 class="mb-5">Education</h2>
@@ -147,7 +147,7 @@ Currently, I am very interested in the latest technological developments, especi
                             <span class="fa-li"><i class="fas fa-check"></i></span>
                             Develop Mobile Applications
                         </li>
-                         <li>
+                        <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
                             Front-end Web Development
                         </li>
@@ -239,15 +239,15 @@ var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
 
 // Go through all of the images with our custom class
-for (var i = 0; i < images.length; i++) {
-  var img = images[i];
+for (var i = 0; i < images.length; i++) 
+{ var img = images[i];
   // and attach our click listener for this image.
-  img.onclick = function(evt) {
+img.onclick = function(evt) {
     console.log(evt);
     modal.style.display = "block";
     modalImg.src = this.src;
     captionText.innerHTML = this.alt;
-  }
+}
 }
 
 var span = document.getElementsByClassName("close")[0];
